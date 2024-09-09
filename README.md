@@ -143,17 +143,19 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	{
 
 		printf("INTERRUPT GENERATED  ");
-				 		 HAL_Delay(1000);
+                HAL_Delay(1000);
 	}
 	else
 	{
 		printf("NO INTERRUPT GENERATED  ");
-						 		 HAL_Delay(1000);
+                HAL_Delay(1000);
 	}
 }
 ```
 ## Output screen shots of serial port utility   :
- 
+
+ ![Screenshot 2024-09-09 090021](https://github.com/user-attachments/assets/b81bef12-3d75-4e18-8eb6-530f2c7a9fca)
+
  
  ## Circuit board :
  
